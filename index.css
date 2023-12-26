@@ -39,6 +39,14 @@ body {
     border-radius: 4px;
   }
   
+  .comments{
+    padding:2px;
+    border:1px solid #380b61;
+    border-radius:100px;
+    cursor:pointer;
+    padding:auto;
+  }
+
   button {
     cursor: pointer;
     background-color: #4caf50;

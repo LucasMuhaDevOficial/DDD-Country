@@ -24,4 +24,5 @@ function calculateCost() {
 
   // Exiba o resultado
   resultDiv.innerHTML = `País: ${country}<br>Custo em Dólares: $${costInDollars.toFixed(2)}<br>Custo em Euros: €${costInEuros.toFixed(2)}`;
+  // exibitions the problems in the conversion
 }
