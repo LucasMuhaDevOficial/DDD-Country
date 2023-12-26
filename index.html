@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Calculadora de Ligações</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Ligações</h1>
+    <form id="callForm">
+      <label for="country">País:</label>
+      <select id="country" name="country">
+        <option value="1">Brasil</option>
+        <option value="2">Estados Unidos</option>
+        <!-- Adicione mais opções de países conforme necessário -->
+      </select>
+
+      <label for="areaCode">Código de Área:</label>
+      <input type="text" id="areaCode" name="areaCode" placeholder="Digite o código de área">
+
+      <label for="duration">Duração da Chamada (min):</label>
+      <input type="text" id="duration" name="duration" placeholder="Digite a duração da chamada">
+
+      <button type="button" onclick="calculateCost()">Calcular</button>
+
+      <div id="result"></div>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
