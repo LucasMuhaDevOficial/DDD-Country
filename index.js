@@ -24,19 +24,3 @@ function calculateCost() {
 
   // Exiba o resultado
   resultDiv.innerHTML = `País: ${country}<br>Custo em Dólares: $${costInDollars.toFixed(2)}<br>Custo em Euros: €${costInEuros.toFixed(2)}`;
-  // exibitions the problems in the conversion
-  function CostOfConversation(value, baseCostPerMinute){
-    // simulate one error when trying to convert a string to number
-    value = parseFloat(value);
-    if(isNan(value))
-    throw new Error("error the conversion: Value is not a valid number");
-  }
-  return value * CostOfConversation;
-}
-// example the use
-try{
-  const CostOfConversation = CurrencyValue('ABC', 1.2) // ABC Not a numeric value
-  console.log('converted value', convertedvalue );
-} catch(error){
-  console.log('Error', error.message("Value is smoller"));
-}
